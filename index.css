@@ -1,9 +1,12 @@
+html{
+	scroll-behavior: smooth;
+}
+
 #main{
 	background-color: #e6e6e6;
 	margin: 0;
 	padding: 0;
 	border: 0;
-	scroll-behavior: smooth;
 }
 
 #home{
@@ -38,14 +41,15 @@
 }
 
 #Hero2{
-	height: 80vh;
+	background-size: 100%;
 }
 
 #about{
 	background-color: #D8D8D8;
-	background-size: 100vw;
-	padding-top: 3rem;
-	height: 100vh;
+	background-size: 100%;
+	min-height: 60vh;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .skill{
@@ -54,16 +58,15 @@
 
 #projects{
 	background-color: #e6e6e6;
-	background-size: 100vw;
-	padding-top: 3rem;
-	height: 100vh;
+	background-size: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 #Testimonial{
 	background-color: #D8D8D8;
-	background-size: 100vw;
+	background-size: 100%;
 	padding-top: 2rem;
-	height: 50vh;
 }
 
 .Feedback{
@@ -72,7 +75,7 @@
 }
 
 .fbFooter{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .fbColumn{
@@ -81,9 +84,8 @@
 
 #book-now{
 	background-color: #e6e6e6;
-	background-size: 100vw;
-	padding-top: 2rem;
-	height: 50vh;
+	background-size: 100%;
+	padding-top: 3rem;
 }
 
 .footer{
