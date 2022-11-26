@@ -1,5 +1,6 @@
 html{
 	scroll-behavior: smooth;
+	scroll-padding-top: 56px;
 }
 
 #main{
@@ -52,21 +53,17 @@ html{
 	padding-bottom: 2rem;
 }
 
-.skill{
-	background-color: #D8D8D8;
-}
-
 #projects{
-	background-color: #e6e6e6;
+	background-color: #D8D8D8;
 	background-size: 100%;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
 #Testimonial{
-	background-color: #D8D8D8;
 	background-size: 100%;
 	padding-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .Feedback{
@@ -83,7 +80,7 @@ html{
 }
 
 #book-now{
-	background-color: #e6e6e6;
+	background-color: #D8D8D8;
 	background-size: 100%;
 	padding-top: 3rem;
 }
@@ -128,4 +125,24 @@ html{
 
 .gitlab:hover{
 	width: 25px;
+}
+
+#designProcess{
+	background-size: 100%;
+	padding-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.number{
+	color: #3BECC6;
+}
+
+.process{
+	background-color: lightgrey;
+	border-radius: 50px;
+}
+
+.skill{
+	background-color: #D8D8D8;
+	box-shadow: 0px 9px 30px rgb(0 0 0 / 0.2);
 }
