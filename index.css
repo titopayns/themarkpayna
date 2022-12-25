@@ -91,8 +91,8 @@ html{
 	margin-bottom: 0px;
 }
 
-.name{
-	color: #3BECC6;
+.Name{
+	color: #25cca8;
 }
 
 .Navigation{
@@ -145,4 +145,8 @@ html{
 .skill{
 	background-color: #D8D8D8;
 	box-shadow: 0px 9px 30px rgb(0 0 0 / 0.2);
+}
+.phero{
+	font-size: larger;
+	font-weight: bold;
 }
